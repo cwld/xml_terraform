@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<terraform>
+  <resource>
+    <random_id>
+      <test>
+        <byte_length>8</byte_length>
+      </test>
+    </random_id>
+  </resource>
+  <output>
+    <randoutputs>
+      <description>Random id</description>
+      <value>${random_id.test}</value>
+    </randoutputs>
+  </output>
+</terraform>
+
